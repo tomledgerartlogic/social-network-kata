@@ -12,17 +12,17 @@ Your team also decided for this project to not only apply TDD and pair-programmi
 
 ## Your Backlog
 
-Posting: Alice can publish messages to a personal timeline
-Reading: Bob can view Alice’s timeline
-Wall: Charlie can see his timeline
-Following: Charlie can subscribe to Alice’s and Bob’s timelines, and view an aggregated list of all subscriptions in his timeline
+- Posting: Alice can publish messages to a personal timeline
+- Reading: Bob can view Alice’s timeline
+- Wall: Charlie can see his timeline
+- Following: Charlie can subscribe to Alice’s and Bob’s timelines, and view an aggregated list of all subscriptions in his timeline
 
 
 Additional Challenge:
 
-Mentions: Bob can link to Charlie in a message using “@”
-Direct Messages: Mallory can send a private message to Alice
-Links: Alice can link to a clickable web resource in a message
+- Mentions: Bob can link to Charlie in a message using “@”
+- Direct Messages: Mallory can send a private message to Alice
+- Links: Alice can link to a clickable web resource in a message
 
 Implement a console-based social networking application (similar to Twitter) satisfying the scenarios below.
 
