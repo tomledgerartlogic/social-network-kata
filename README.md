@@ -1,5 +1,9 @@
 # Social Network Kata
 
+> Incremental Kata - no peeping ahead!
+> This is an incremental kata to simulate a real business situation: work your way through the steps in order, but do not read the next requirement before you have finished your current one.
+
+
 ## Your Team
 Is tired of all those boring tasks like bowling game scores, bank accounts, singing songs or commanding mars rovers. This time you want to do something truly innovative: A Social Network!
 
