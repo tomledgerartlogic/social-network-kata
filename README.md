@@ -73,3 +73,7 @@ Implement a console-based social networking application (similar to Twitter) sat
 **IMPORTANT:**  Implement the requirements focusing on **writing the best code** you can produce.
 
 **CODE SUBMISSION:** Add the code to your own Github account and share with your teammates.
+
+### Hints:
+
+- You may use [Click](https://click.palletsprojects.com/en/stable/) library to build the application. Click library to build the application.
