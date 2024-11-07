@@ -14,22 +14,29 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Set up Python 3.10
-      uses: actions/setup-python@v3
-      with:
-        python-version: "3.13"
-    - name: Poetry Install
-      uses: knowsuchagency/poetry-install@v2
-      with:
-        create-virtualenv: false
-    - name: Lint with flake8
-      run: |
-        black --check .
-    - name: Test with pytest
-      run: |
-        pytest
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.13"
+
+      - name: Poetry Install
+        uses: knowsuchagency/poetry-install@v2
+        with:
+          create-virtualenv: false
+
+      - name: Install Dependencies with Poetry
+        run: |
+          poetry install --no-root
+
+      - name: Lint with black
+        run: |
+          poetry run black --check .
+
+      - name: Test with pytest
+        run: |
+          poetry run pytest
