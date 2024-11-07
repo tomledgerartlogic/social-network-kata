@@ -2,8 +2,8 @@
 name = "social-network-kata"
 version = "0.1.0"
 description = ""
-authors = ["Danish J <1080238+ambersariya@users.noreply.github.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.9"
