@@ -76,8 +76,7 @@ Implement a console-based social networking application (similar to Twitter) sat
 
 ### Hints:
 
-- You may use [Click](https://click.palletsprojects.com/en/stable/) library to build the application. Click library to build the application.
-
+- You may use [Click](https://click.palletsprojects.com/en/stable/) library to build the application.
 ## Run
 
 ```bash
