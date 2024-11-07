@@ -1,22 +1,26 @@
 # Social Network Kata
 
 > Incremental Kata - no peeping ahead!
-> This is an incremental kata to simulate a real business situation: work your way through the steps in order, but do not read the next requirement before you have finished your current one.
-
+> This is an incremental kata to simulate a real business situation: work your way through the steps in order, but do
+> not read the next requirement before you have finished your current one.
 
 ## Your Team
-Is tired of all those boring tasks like bowling game scores, bank accounts, singing songs or commanding mars rovers. This time you want to do something truly innovative: A Social Network!
+
+Is tired of all those boring tasks like bowling game scores, bank accounts, singing songs or commanding mars rovers.
+This time you want to do something truly innovative: A Social Network!
 
 ## Your Rules
-Your team also decided for this project to not only apply TDD and pair-programming - this time you’re gonna use BDD to cover all important features.
+
+Your team also decided for this project to not only apply TDD and pair-programming - this time you’re gonna use BDD to
+cover all important features.
 
 ## Your Backlog
 
 - Posting: Alice can publish messages to a personal timeline
 - Reading: Bob can view Alice’s timeline
 - Wall: Charlie can see his timeline
-- Following: Charlie can subscribe to Alice’s and Bob’s timelines, and view an aggregated list of all subscriptions in his timeline
-
+- Following: Charlie can subscribe to Alice’s and Bob’s timelines, and view an aggregated list of all subscriptions in
+  his timeline
 
 Additional Challenge:
 
@@ -57,7 +61,6 @@ Implement a console-based social networking application (similar to Twitter) sat
 > \> Bob - Damn! We lost! (2 minutes ago)
 > \> Alice - I love the weather today (5 minutes ago)
 
-
 ### General requirements
 
 - Application must use the console for input and output;
@@ -66,9 +69,11 @@ Implement a console-based social networking application (similar to Twitter) sat
     - reading: \<user name>
     - following: \<user name> follows \<another user>
     - wall: \<user name> wall
-- Don't worry about handling any exceptions or invalid commands. Assume that the user will always type the correct commands. Just focus on the sunny day scenarios.
+- Don't worry about handling any exceptions or invalid commands. Assume that the user will always type the correct
+  commands. Just focus on the sunny day scenarios.
 - Use whatever language and frameworks you want. (provide instructions on how to run the application)
-- **NOTE:** "posting:", "reading:", "following:" and "wall:" are not part of the command. All commands start with the user name.
+- **NOTE:** "posting:", "reading:", "following:" and "wall:" are not part of the command. All commands start with the
+  user name.
 
 **IMPORTANT:**  Implement the requirements focusing on **writing the best code** you can produce.
 
@@ -77,6 +82,15 @@ Implement a console-based social networking application (similar to Twitter) sat
 ### Hints:
 
 - You may use [Click](https://click.palletsprojects.com/en/stable/) library to build the application.
+
+## Dependencies
+
+- Python 3.9+
+- [Poetry](https://github.com/python-poetry/poetry)
+- [Pytest](https://docs.pytest.org/en/latest/)
+- [Black](https://black.readthedocs.io/en/stable/)
+- [isort](https://isort.readthedocs.io/en/stable/)
+
 ## Run
 
 ```bash
