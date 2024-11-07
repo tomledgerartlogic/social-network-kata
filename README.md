@@ -77,3 +77,25 @@ Implement a console-based social networking application (similar to Twitter) sat
 ### Hints:
 
 - You may use [Click](https://click.palletsprojects.com/en/stable/) library to build the application. Click library to build the application.
+
+## Run
+
+```bash
+poetry shell
+poetry install
+```
+
+## Lint
+
+```bash
+black --check social_network_kata
+isort --check --verbose social_network_kata
+```
+
+## Test
+
+```bash
+pytest
+# poetry run pytest
+```
+
