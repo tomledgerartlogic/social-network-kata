@@ -1,0 +1,2 @@
+class SocialMediaService:
+    pass

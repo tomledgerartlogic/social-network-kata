@@ -1,0 +1,2 @@
+class MessageClock:
+    pass
