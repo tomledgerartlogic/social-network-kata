@@ -11,6 +11,7 @@ class TestPostMessage:
         clock = Mock(MessageClock)
         printer = Mock(MessagePrinter)
         mocked_input.side_effect = ['Alice -> I love the weather today', 'Alice', 'exit']
+        clock.now.side_effect = ['2024-11-29T00:05:23','2024-11-29T00:05:23']
         expected_output = "I love the weather today (5 minutes ago)"
 
         social_media_service = SocialMediaService(clock, printer)
