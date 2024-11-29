@@ -15,7 +15,7 @@ class TestPostMessage:
 
         social_media_service = SocialMediaService(clock, printer)
         ##accept command
-        social_media = SocialMedia(StandardInputter)
+        social_media = SocialMedia(social_media_service)
                 
         # Act
         # > Alice -> I love the weather today 
