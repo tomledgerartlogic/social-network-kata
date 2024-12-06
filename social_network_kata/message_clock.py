@@ -1,2 +1,4 @@
 class MessageClock:
-    pass
+
+    def now(self):
+        raise NotImplementedError
