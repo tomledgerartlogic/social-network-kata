@@ -1,4 +1,4 @@
-from unittest.mock import patch, Mock
+from unittest.mock import patch, Mock, call
 from social_network_kata.message_clock import MessageClock
 from social_network_kata.message_printer import MessagePrinter
 from social_network_kata.social_media_service import SocialMediaService
@@ -28,4 +28,5 @@ class TestPostMessage:
 
         # Assert
         # Test message equals message passed in to printer
-        printer.print.assert_called_once_with(expected_output)
+        printer.print.assert_has_calls([call(expected_output), call("Good bye")])
+        # printer.print.assert_called_once_with("Good bye")

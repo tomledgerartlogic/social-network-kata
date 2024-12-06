@@ -3,7 +3,20 @@ from social_network_kata.social_media_service import SocialMediaService
 class SocialMedia:
     
     def __init__(self, social_media_service: SocialMediaService):
-        pass
+        self.social_media_service = social_media_service
 
     def run(self):
-        raise NotImplementedError
+        self.running = True
+        while self.running:
+            user_input = input()
+            self.parse_user_input(user_input)
+
+
+    def parse_user_input(self, user_input):
+        if user_input == "exit":
+            self.social_media_service.exit()
+            self.running = False
+        elif "->" in user_input:
+            # 'Alice -> I love the weather today'
+            username, _, message = user_input.partition("->")
+            self.social_media_service.post(username.strip(), message.strip())
