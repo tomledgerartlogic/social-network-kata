@@ -4,4 +4,5 @@ class MessagePrinter:
         pass
 
     def print(self):
+        pass
         raise NotImplementedError
